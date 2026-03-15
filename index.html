@@ -1,34 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-        <title>Bird in University</title>
+<meta charset="UTF-8">
+<title>นกน่าสนใจในมหาวิทยาลัยศิลปากร</title>
+
+<style>
+    body {
+        font-family: Tahoma;
+        margin: 0;
+        background-image: url("https://i.ibb.co/27xCJ0LC/20160303-142114.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    header {
+        background: rgba(0, 51, 51, 0.9);
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+
+    nav {
+        background: rgba(255, 255, 255, 0.9);
+        text-align: center;
+        padding: 12px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #003333;
+        margin: 15px;
+        font-weight: bold;
+    }
+
+    .container {
+        width: 85%;
+        margin: auto;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 25px;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 15px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-6px);
+    }
+
+    .card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    footer {
+        background: rgba(0, 51, 51, 0.9);
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
 </head>
-    <body>
-        <h1>นกพิราบในมหาวิทยาลัย</h1>
-        <hr>
-          <table border="1" width="100%">
-             <tr>
-                 <td width="40%" align="center">
-                    <img src="https://defeated-green-hcf3hspvpj.edgeone.app/Screenshot_2026-03-14-17-33-07-945_com.ss.android.ugc.trill.png" width="250">
-                    <br><br>
-                    <b>นกพิราบ</b>
-                </td>
-                <td width="60%">
-                    <h2>ข้อมูลนก</h2>
-                    <p>
-                        นกพิราบเป็นนกที่พบได้ทั่วไปในบริเวณมหาวิทยาลัย
-                        มักอาศัยอยู่ตามอาคารเรียน สนามกีฬา และลานกิจกรรม
-                        เป็นนกที่สามารถปรับตัวเข้ากับสภาพแวดล้อมของมนุษย์ได้ดี
-                    </p>
-                    <h2>สถานที่ที่พบ</h2>
-                        <ul>
-                            <li>หน้าคณะวิทยาศาสตร์</li>
-                            <li>โรงอาหารกลาง</li>
-                            <li>ลานกิจกรรมนักศึกษา</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
-    </body>
- </html>
+
+<body>
+<header>
+    <h1>หมวดนกในมหาวิทยาลัยศิลปากร</h1>
+    <p>คลิกที่รูปเพื่อดูข้อมูลนกแต่ละชนิด</p>
+</header>
+
+<nav>
+    <a href="https://webtech68-ten.vercel.app/">หน้าแรก</a> |
+    <a href="https://zen-iota-ten.vercel.app/suzooooosub1.html">หมา</a> |
+    <a href="https://web-six-eosin-87.vercel.app/">แมว</a> |
+    <a href="https://807.vercel.app/">ตัวเงินตัวทอง</a>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <a href="pigeon.html">
+            <img src="https://i.ibb.co/HTDqGrp8/Screenshot-2026-03-15-21-00-31-479-com-android-chrome.png">
+        </a>
+        <h3>นกพิราบ</h3>
+    </div>
+
+    <div class="card">
+        <a href="peregrine.html">
+            <img src="https://i.ibb.co/8G0TFPK/Screenshot-2026-03-15-20-51-41-342-com-instagram-android.png">
+        </a>
+        <h3>เหยี่ยวเพเรกริน</h3>
+    </div>
+
+    <div class="card">
+        <a href="iora.html">
+            <img src="https://i.ibb.co/HT9X1nvW/Screenshot-2026-03-15-20-51-47-096-com-instagram-android.png">
+        </a>
+        <h3>นกกินเปลือกเหลือง</h3>
+    </div>
+
+    <div class="card">
+        <a href="flycatcher.html">
+            <img src="https://i.ibb.co/Hp3hTcnP/Screenshot-2026-03-15-20-51-55-680-com-instagram-android.png">
+        </a>
+        <h3>นกจับแมลงสีน้ำตาล</h3>
+    </div>
+
+    <div class="card">
+        <a href="kingfisher.html">
+            <img src="https://i.ibb.co/7mW64qj/Screenshot-2026-03-15-20-52-04-482-com-instagram-android.png">
+        </a>
+        <h3>นกกระเต็นใหญ่ธรรมดา</h3>
+    </div>
+
+</div>
+
+<footer>
+    โครงงานรายวิชา Web Technology
+</footer>
+
+</body>
+
+</html>
